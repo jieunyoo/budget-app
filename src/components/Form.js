@@ -9,6 +9,8 @@ import {
   Button
 } from 'reactstrap'
 
+
+
 const Form = ({ name, amount, handleName, handleAmount, handleSubmitForm, handleClearExpenses }) => (
   <BTForm style={{ margin: 10 }} onSubmit={handleSubmitForm}>
     <FormGroup className='row'>

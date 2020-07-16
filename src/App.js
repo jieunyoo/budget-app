@@ -33,7 +33,7 @@ function App() {
   		} else {
     		console.log('Invalid expense name or the amount')
 	  	}
-		}
+	}
 
 	const handleClearExpenses = () => {
 		setExpenses([])
